@@ -1,0 +1,5 @@
+- [x] Move abstract class Vehicle outside Abstraction class and fix name from Vehical to Vehicle
+- [x] Fix typos in abstract method names: chengeGares -> changeGears, increseSpeed -> increaseSpeed, applybreaks -> applyBreaks
+- [x] Update abstract method signatures to match main calls: changeGears(int gear) returns int, increaseSpeed(double speed) returns double, applyBreaks() returns String
+- [x] In main, declare Vehicle car = new BMW() and fix method call increseSpeed to increaseSpeed
+- [x] Implement all abstract methods in BMW class: startEngine, stopEngine, changeGears, increaseSpeed, applyBreaks
